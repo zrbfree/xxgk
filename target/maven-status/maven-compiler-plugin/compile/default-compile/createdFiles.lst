@@ -1,0 +1,5 @@
+com\rick\app\entity\User.class
+com\rick\app\controller\UserController.class
+com\rick\app\dao\UserMapper.class
+com\rick\app\service\IUserService.class
+com\rick\app\service\impl\UserService.class

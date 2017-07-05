@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - xxgk@localhost" uuid="80f58254-e5c2-40d3-8260-1230b92b4af1">
+    <database-info product="MySQL" version="5.7.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="xxgk">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="cms"/>
+      <schema id="3" name="db-mcms-open"/>
+      <schema id="4" name="db_ssm"/>
+      <schema id="5" name="dubbo-rick"/>
+      <schema id="6" name="edu_demo"/>
+      <schema id="7" name="filemanager"/>
+      <schema id="8" name="hsl"/>
+      <schema id="9" name="information_schema"/>
+      <schema id="10" name="jeesite"/>
+      <schema id="11" name="mysql"/>
+      <schema id="12" name="performance_schema"/>
+      <schema id="13" name="qskx"/>
+      <schema id="14" name="reserve_meal"/>
+      <schema id="15" name="rick"/>
+      <schema id="16" name="rick-bootstrap"/>
+      <schema id="17" name="spring_boot_demo"/>
+      <schema id="18" name="sys"/>
+      <schema id="19" name="taotao"/>
+      <schema id="20" name="test"/>
+      <table id="21" parent="1" name="tbl_tr_user">
+        <comment>用户表</comment>
+      </table>
+      <column id="22" parent="21" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="23" parent="21" name="user_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="24" parent="21" name="pass_word">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="25" parent="21" name="gender">
+        <data-type>int(1)|0</data-type>
+      </column>
+      <column id="26" parent="21" name="phone">
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="27" parent="21" name="create_time">
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="28" parent="21" name="update_time">
+        <data-type>datetime|0</data-type>
+      </column>
+      <key id="29" parent="21" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
